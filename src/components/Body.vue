@@ -41,6 +41,7 @@ export default {
 }
 .main{
     margin-top:180px;
+    
   
 }
 .main hr{
