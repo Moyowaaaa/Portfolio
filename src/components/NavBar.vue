@@ -47,13 +47,13 @@ export default {
 }
 .navbar-brand {
     margin:5px;
-    font-family:cursive;
+   
     font-size:25px;
 
 }
 .navbar-nav{
     float:right;
-    font-family:cursive;
+   
 }
 .nav li{
   color:red;
