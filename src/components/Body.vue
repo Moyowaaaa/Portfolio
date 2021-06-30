@@ -41,8 +41,8 @@ export default {
 }
 .main{
     margin-top:180px;
-    font-family:cursive
-}
+    font-family:Schoolbell
+    }
 .main hr{
     width:15.25em
 }
