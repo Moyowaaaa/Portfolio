@@ -41,7 +41,7 @@ export default {
 }
 .main{
     margin-top:180px;
-    font-family:cursive
+  
 }
 .main hr{
     width:15.25em
@@ -52,8 +52,9 @@ export default {
 }
 .main h1{
        color:gold;
-    font-size:70px;
+    font-size:100px;
     text-align:center;
+     font-family: Schoolbell;
 }
 .main h4{
     text-align:center;
@@ -61,6 +62,14 @@ export default {
 footer{
     margin-top:80px;
     text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .main{
+        margin-top:150px;
+    }
+    .main h1{
+        font-size:65px;
+    }
 }
 
 </style>

@@ -15,9 +15,9 @@
       <div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#section2">About Me</a></li>
-            <li><a href="#section3">Services</a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a>About Me</a></li>
+            <li><a>Services</a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             
               </ul>
@@ -47,19 +47,19 @@ export default {
 }
 .navbar-brand {
     margin:5px;
-    font-family:cursive;
-    font-size:25px;
+    
+    font-size:15px;
 
 }
 .navbar-nav{
     float:right;
-    font-family:cursive;
+    
 }
 .nav li{
   color:red;
 }
 .navbar-nav .fa{
-    color:steelblue;
+    color:teal;;
     font-size:20px
 }
 .navbar-nav .fa:hover{

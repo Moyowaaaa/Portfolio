@@ -1,11 +1,13 @@
 <template>
     <div class="contact">
         <h3>Contact Me Today!!</h3>
-        <p>Give me a call or send me a message or an E-mail and i will get back to you as soon as possible.</p>
+        <p>I'm currently open to any Freelance work, send me an Email</P> 
+        <p>and i will get back to you as soon as possible.</p>
         <div class="link">
         <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
          <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
           <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </div>
         </div>
 </template>
@@ -24,11 +26,11 @@ export default {
 .contact h3{
     text-align:center;
     font-size:45px;
-    font-family: cursive;
+    
 }
 .contact p{
     text-align:center;
-    font-family: cursive;
+
     font-size:25px;
 }
 .link{

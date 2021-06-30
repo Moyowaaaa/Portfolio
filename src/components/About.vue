@@ -30,7 +30,7 @@ export default {
 }
 .about .img{
     width:30%;
-    height:200px;
+    height:400px;
     border: 3px solid red;
 }
 .about p{

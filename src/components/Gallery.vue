@@ -1,6 +1,6 @@
 <template>
     <div class="gallery">
-        <h3>Portfolio Gallery <hr></h3>
+        <h1>Portfolio <hr></h1>
         <div class="works"></div>
     </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 .gallery{
     margin-top:200px;
 }
-.gallery h3{
+.gallery h1{
     text-align:center;
 }
 .gallery hr{
