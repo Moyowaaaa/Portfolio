@@ -22,8 +22,32 @@
         <h1>Portfolio <hr></h1>
         <br><br>
         <div class="works">
-          <div class="left"></div>
-          <div class="center"></div>
+          <div class="left">
+              <img class="img" src="../assets/project1.jpg">
+              <div class="title">
+                  <h4>HEDGEHOG</h4>
+                  <br>
+                  <p>A Website for Creating and Tracking Task.</p>
+                  <hr>
+              </div>
+              <div class="lang">
+                  <p><l1>Vue.js</l1></p>
+              </div>
+              <div class="lang">
+                  <p>Chakra-ui</p>
+              </div>
+              <div class="open">
+                  <a href="https://xdm-front.vercel.app/">
+                  <h3>view</h3></a>
+              </div>
+          </div>
+
+
+          <div class="center">
+          </div>
+
+
+
           <div class="right"></div>
         </div>
         <br>
@@ -70,8 +94,7 @@ export default {
 }
 .main{
     margin-top:180px;
-    
-  
+    height:100%
 }
 .main hr{
     width:15.25em
@@ -97,7 +120,7 @@ footer{
     text-align: center;
 }
 .about{
-    margin-top:300px;
+    margin-top:200px;
   
 }
 .about hr{
@@ -121,27 +144,27 @@ footer{
     width:3.25em;
 }
 .works{
-    width:100%;
+    width:90%;
     height:700px;
-  
-    display:inline-flex;
+    margin-left:8%;
+    display:flex;
 }
 .works .left{
-  height:350px;
-  border: 3px solid red;
-  width:30%;
+  height:60%;
+  background:rgb(2, 12, 46);
+  width:28%;
 }
 .works .center{
-  height:350px;
-  width:30%;
+  height:60%;
+  width:28%;
   margin-left:5%;
-  border: 3px solid whitesmoke;
+  background:rgb(2, 12, 46);
 }
 .works .right{
-  height:350px;
-  width:30%;
+  height:60%;
+  width:28%;
   margin-left:5%;
-  border: 3px solid blue;
+ background:rgb(2, 12, 46);
 }
 
 
@@ -176,6 +199,41 @@ footer{
     margin-top:80px;
     text-align: center;
 }
+.left .img{
+    width:100%;
+    height:40%
+}
+ .title{
+    margin-top:5%;
+    margin-left:5%
+}
+ .title hr{
+    width:5.25em
+}
+
+ .lang{
+    display:inline-flex;
+    border:0.2px solid teal;
+    height:25px;
+    width:30%;
+    margin-left:5%;
+ 
+}
+ .open{
+  margin-left:5%;
+  margin-top:15%;
+  text-decoration:none;
+}
+ .open h3 {
+    color:teal
+}
+ .open a:hover{
+    text-decoration:none;
+}
+ .open h3:hover {
+    text-decoration:none;
+}
+
 
 @media screen and (max-width: 600px) {
     .contact{
