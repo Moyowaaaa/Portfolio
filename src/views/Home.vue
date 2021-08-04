@@ -221,7 +221,7 @@ footer{
 }
  .open{
   margin-left:5%;
-  margin-top:15%;
+  margin-top:12%;
   text-decoration:none;
 }
  .open h3 {
