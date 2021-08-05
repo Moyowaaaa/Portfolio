@@ -26,7 +26,7 @@
               <img class="img" src="../assets/project1.jpg">
               <div class="title">
                   <h4>HEDGEHOG</h4>
-                  <br>
+               
                   <p>A Website for Creating and Tracking Task.</p>
                   <hr>
               </div>
@@ -204,6 +204,7 @@ footer{
     height:40%
 }
  .title{
+     padding-top:10px;
     margin-top:5%;
     margin-left:5%
 }
@@ -221,11 +222,25 @@ footer{
 }
  .open{
   margin-left:5%;
-  margin-top:12%;
+  margin-top:10%;
+  width:10%;
   text-decoration:none;
 }
+
+
+.open:hover{
+    text-decoration:underline;
+}
+
+.open .fa{
+    color:white;
+    font-size:20px;
+}
+.open .fa:hover {
+    color:gold;
+}
  .open h3 {
-    color:teal
+    color:gold
 }
  .open a:hover{
     text-decoration:none;
