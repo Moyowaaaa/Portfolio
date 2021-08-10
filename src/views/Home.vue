@@ -5,8 +5,9 @@
         <h4>I'm a <b>Web Developer.</b></h4>
         <hr></div>
         <br>
-       <div class="about">
-         <h2>About Me<hr></h2>
+        <div class="ab">
+            <div class="about">
+             <h2>About Me<hr></h2>
             <br />
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 consectetur adipisicing elit. In, 
@@ -17,7 +18,27 @@
                 adipisci eaque molestiae enim atque perferendis.
                  dolores accusamus itaque quae aspernatur adipisci e
             aque molestiae enim atque perferendis.</p>
+            </div>
+
+            <div class="languages">
+                <div id="main">
+                   
+   <img class="icons"  src="../assets/html.svg" alt="">
+   <img class="icon"   src="../assets/css3.svg" alt="">
+      <img class="icons"  src="../assets/javascript.svg" alt="">
+             <img class="icons" id="ico"  src="../assets/mongodb.svg" alt="">
+              <img class="icons" id="ico"  src="../assets/nuxt.svg" alt="">
+                <img class="icons" id="ico"  src="../assets/vue-js.svg" alt="">
+                <img class="icons" id="ico"  src="../assets/node.svg" alt="">
+                </div>
+                </div>
+           
         </div>
+
+
+
+
+
         <div class="gallery">
         <h1>Portfolio <hr></h1>
         <br><br>
@@ -87,13 +108,13 @@ export default {
     margin-top:50px;;
     background-color:black !important;
     color:white !important;
-    width:95%;;
+    width:100%;;
     height:700px;
 
   
 }
 .main{
-    margin-top:180px;
+    margin-top:15%;
     height:100%
 }
 .main hr{
@@ -119,9 +140,14 @@ footer{
     margin-top:100%;;
     text-align: center;
 }
-.about{
-    margin-top:200px;
-  
+.ab{
+    display: flex;
+    width:100%;
+}
+.ab .about{
+    width:65%;
+    height:auto;
+   
 }
 .about hr{
   width:3.25em;
@@ -129,11 +155,62 @@ footer{
 
 .about p{
     margin-left:15px;
-    width:65%;
-    height:200px;
+    width:90%;
+    margin-bottom: 5%;
     text-align:justify;
     font-size:25px;
 }
+.ab .languages{
+    width:34%; 
+}
+#main{
+    margin-top:25%;
+      display: flex;
+  flex-wrap: wrap;
+}
+#main .icon{
+    height:65px;
+     margin-left:57px;
+}
+
+#main .icons{
+    margin-left:80px;
+    margin-top:10px;
+    height: 50px;
+}
+#main .ico{
+    margin-top:5%;
+    margin-left:40%;
+    height: 50px;
+}
+
+
+/*
+#main .tooltiptext{
+    visibility:hidden;
+    width: 120px;
+    background-color:black;
+    color:white;
+    z-index: 1;
+    text-align:center;
+     top: 100%;
+  left: 50%;
+}
+#main .tooltiptext::after {
+    content: "";
+     position: absolute;
+     top: 100%;
+  left: 50%;
+
+}
+
+
+#main:hover .tooltiptext {
+  visibility: visible;
+}
+*/
+
+
 .gallery{
     margin-top:200px;
 }
@@ -250,42 +327,60 @@ footer{
 }
 
 
+/* Mobile phones */
 @media screen and (max-width: 600px) {
     .contact{
-        margin-top:500px;
+        margin-top:300px;
     }
     .works{
       display: block;;
     }
-}
+    .ab{
+       display:block
+    }  
+     .ab .about{
+         width:100%;
+       display:block
+     }
+     .ab .languages{
+         width:100%;
+     }
+     #main{   
+         display:block;
+         flex-direction: row;
+         margin-left:6%;
+         margin-bottom:10px;
 
-@media screen and (max-width: 600px) {
+     } 
+     #main .icon, #main .icons{
+         margin-left:10px;
+     }
     .gallery{
-        margin-top:550px;
+        margin-top:300px;
     }
     .works{
       height:auto;
         width:auto;
     }
     .works .left{
-      height: 350px;
+      height: 400px;
       width:100%;
-      margin-left:0px;
+      margin-left:-15px;
       margin-top:10px;
       
     }
     .works .center{
+         height: 400px;
+           margin-left:-15px;
       width:100%;
-      margin-left:0px;
-      margin-top:10px;
+      margin-top:15px;
     }
     .works .right{
+         height: 400px;
       width:100%;
-      margin-left:0px;
-      margin-top:10px;
+        margin-left:-15px;
+      margin-top:15px;
     }
-}
-@media screen and (max-width: 600px) {
     .about{
         display:block;
     }
@@ -295,11 +390,8 @@ footer{
     .about p{
         width:90%;
     }
-}
-
-@media screen and (max-width: 600px) {
     .main{
-        margin-top:150px;
+        margin-top:60%;
     }
     .main h1{
         font-size:65px;
