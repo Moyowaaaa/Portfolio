@@ -353,7 +353,7 @@ footer{
 
      } 
      #main .icon, #main .icons{
-         margin-left:10px;
+         margin-left:12px;
      }
     .gallery{
         margin-top:300px;
