@@ -10,7 +10,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
         </button>
-        <h3 class="navbar-brand" >Moyowa Etchie</h3>
+        <h3 class="navbar-brand" >Moyowa</h3>
       </div>
       <div>
         <div class="collapse navbar-collapse" id="myNavbar">
