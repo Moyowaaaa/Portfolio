@@ -40,7 +40,9 @@ body{
     color:white !important;
 }
 
-
+.navbar{
+  background:black;
+}
 .navbar-brand {
     margin:5px;
     
