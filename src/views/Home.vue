@@ -5,10 +5,13 @@
         <h4>I'm a <b>Web Developer.</b></h4>
         <hr></div>
         <br>
+
+
+
         <div class="ab">
             <div class="about">
              <h2>About Me<hr></h2>
-            <br />
+       
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 consectetur adipisicing elit. In, 
                 eaque iure fugit omnis odio quo reprehenderit
@@ -20,18 +23,22 @@
             aque molestiae enim atque perferendis.</p>
             </div>
 
+
             <div class="languages">
                 <div id="main">
-                   
-   <img class="icons"  src="../assets/html.svg" alt="">
-   <img class="icon"   src="../assets/css3.svg" alt="">
-      <img class="icons"  src="../assets/javascript.svg" alt="">
-             <img class="icons" id="ico"  src="../assets/mongodb.svg" alt="">
-              <img class="icons" id="ico"  src="../assets/nuxt.svg" alt="">
-                <img class="icons" id="ico"  src="../assets/vue-js.svg" alt="">
-                <img class="icons" id="ico"  src="../assets/node.svg" alt="">
+                
+   <img  src="../assets/html.svg" alt="" style="width:45px;">
+   <img   src="../assets/css3.svg" alt="" style="width:45px;" >
+      <img   src="../assets/javascript.svg" alt="" style="width:45px;">
+                      <img    src="../assets/nodejs.svg" alt="" style="width:45px;">
+             <img   src="../assets/mongodb.svg" alt="" style="width:45px; margin-top:3%">
+              <img   src="../assets/nuxt.svg" alt="" style="width:45px;; margin-top:3%">
+                <img    src="../assets/vue-js.svg" alt="" style="width:45px; margin-top:3%">
+
+                
                 </div>
                 </div>
+              
            
         </div>
 
@@ -110,13 +117,13 @@ export default {
     background-color:black !important;
     color:white !important;
     width:100%;;
-    height:700px;
+    height:100vh
 
   
 }
 .main{
     margin-top:15%;
-    height:200%
+    height:100vh
 }
 .main hr{
     width:15.25em
@@ -142,6 +149,7 @@ footer{
     text-align: center;
 }
 .ab{
+    margin-top:-15%;
     display: flex;
     width:100%;
 }
@@ -162,28 +170,21 @@ footer{
     font-size:25px;
 }
 .ab .languages{
-    width:34%; 
+    width:35%; 
 }
 #main{
-    margin-top:25%;
+    width:100%;
+    margin-top:9%;
       display: flex;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-bottom: 5%;
+ 
 }
-#main .icon{
-    height:65px;
-     margin-left:57px;
+#main img{
+    margin-left:15%;
+    
 }
 
-#main .icons{
-    margin-left:80px;
-    margin-top:10px;
-    height: 50px;
-}
-#main .ico{
-    margin-top:5%;
-    margin-left:40%;
-    height: 50px;
-}
 
 
 
@@ -248,7 +249,7 @@ footer{
 
 
 .contact{
-    margin-top:350px;
+    margin-top:5%;
     
 }
 .contact h3{
@@ -344,21 +345,21 @@ footer{
          width:100%;
        display:block
      }
-     .ab .languages{
+     .ab .languages{margin-top:3%;
          width:100%;
      }
      #main{   
          display:block;
          flex-direction: row;
-         margin-left:6%;
+         margin-left:1%;
          margin-bottom:10px;
 
      } 
      #main .icon, #main .icons{
-         margin-left:10px;
+         margin-left:0  px;
      }
     .gallery{
-        margin-top:300px;
+        margin-top:200px;
     }
     .works{
       height:auto;
@@ -397,6 +398,9 @@ footer{
     }
     .main h1{
         font-size:65px;
+    }
+    .link{
+        margin-left:-7%;
     }
 }
 
